@@ -1,0 +1,45 @@
+{
+  "esmcat_version": "0.1.0",
+  "id": "sfs_test",
+  "description": "This is a very basic sample ESM catalog.",
+  "catalog_file": "sfs_catalog_test.csv",
+  "attributes": [
+    {
+      "column_name": "activity_id"
+    },
+    {
+      "column_name": "source_id"
+    },
+    {
+      "column_name": "realm"
+    },
+    {
+      "column_name": "variable_id"
+    },
+    {
+      "column_name": "standard_name"
+    },
+    {
+      "column_name": "long_name"
+    },
+    {
+      "column_name": "frequency"
+    },
+    {
+      "column_name": "units"
+    },
+    {
+      "column_name": "start_time"
+    },
+    {
+      "column_name": "end_time"
+    },
+    {
+      "column_name": "time_range"
+    }
+  ],
+  "assets": {
+    "column_name": "path",
+    "format": "zarr"
+  }
+}
