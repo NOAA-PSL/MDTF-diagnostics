@@ -1,8 +1,8 @@
 CASE_LIST:
   SFS_baseline_cpc_199411:
-    case_name: SFS_baseline_cpc
-    startdate: '19941101'
-    enddate: '19951001'
+    case_name: SFS_baseline_cpc_199411
+    startdate: '1994-11-01'
+    enddate: '1995-10-01'
     TAS_ASSOC_FILES: ''
     TAS_FILE: https://noaa-oar-sfsdev-pds.s3.amazonaws.com/index.html#experiments/phase_1/cpc_ics/atm_monthly.zarr
     date_int_offset: 0
@@ -10,13 +10,13 @@ CASE_LIST:
     lat_coord: lat
     lon_bnds: lon_bnds
     lon_coord: lon
-    tas_var: tsfc
+    tas_var: tmpsfc
     time_bnds: time_bnds
-    time_coord: time
-  SFS_baseline_cpc_199510:
-    case_name: SFS_baseline_cpc
-    startdate: '19951001'
-    enddate: '19961001'
+    time_coord: lead
+  SFS_baseline_cpc_199511:
+    case_name: SFS_baseline_cpc_199511
+    startdate: '1995-11-01'
+    enddate: '1996-10-01'
     TAS_ASSOC_FILES: ''
     TAS_FILE: https://noaa-oar-sfsdev-pds.s3.amazonaws.com/index.html#experiments/phase_1/cpc_ics/atm_monthly.zarr
     date_int_offset: 0
@@ -24,13 +24,13 @@ CASE_LIST:
     lat_coord: lat
     lon_bnds: lon_bnds
     lon_coord: lon
-    tas_var: tsfc
+    tas_var: tmpsfc
     time_bnds: time_bnds
-    time_coord: time
+    time_coord: lead
   SFS_betaV0.1_199511:
-    case_name: SFS_betaV0.1
-    startdate: '19951101'
-    enddate: '19961001'
+    case_name: SFS_betaV0.1_199511
+    startdate: '1995-11-01'
+    enddate: '1996-10-01'
     TAS_ASSOC_FILES: ''
     TAS_FILE: https://noaa-oar-sfsdev-pds.s3.amazonaws.com/index.html#experiments/phase_1/c96_beta.0.1/atm_monthly.zarr
     date_int_offset: 0
@@ -40,6 +40,6 @@ CASE_LIST:
     lon_coord: lon
     tas_var: tsfc
     time_bnds: time_bnds
-    time_coord: time  
+    time_coord: lead  
 
 CATALOG_FILE: /home/mgehne/mdtf/MDTF-diagnostics/diagnostics/example_sfs_notebook/sfs_catalog_test.json
